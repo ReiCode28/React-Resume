@@ -1,9 +1,10 @@
 import React from 'react';
-import Typical from 'react-typical'
+import Typical from 'react-typical';
+import "./Profile.css";
 
 export default function Profile() {
   return (
-    <div className='prifle-container'>
+    <div className='profile-container'>
         <div className='profile-parent'>
             <div className='profile-details'>
                 <div className='colz'>
