@@ -1,32 +1,28 @@
-import React from 'react'
-import './ScreenHeading.css'
+import React from "react";
+import "./ScreenHeading.css";
 
 export default function ScreenHeading(props) {
   return (
-    <div className='heading-container'>
-        <div className='screen-heading'>
-            <span>{props.title}</span>
-        </div>
+    <div className="heading-container">
+      <div className="screen-heading">
+        <span>{props.title}</span>
+      </div>
 
-        {
-            (props.subHeading)?(
-                <div className='screen-sub-heading'> 
-                    <span>{props.subHeading}</span>
-                </div>
-            ):<div></div>
-        }
-    </div>
-  )
-}
+      {
+        (props.subHeading)?(
+          <div className="screen-sub-heading">
+            <span>{props.subHeading}</span>
+          </div>
+        ):<div></div>
+      }
 
-<div className='heading-separator'>
-    <div className='separator-line'>
-        <div className='separator-blob'>
+      <div className="heading-seperator">
+        <div className="seperator-line">
+          <div className="seperator-blob">
             <div></div>
+          </div>
         </div>
-    </div>
-</div>
-
-/**
- * Receiving the data that will be passed through props down to this component
- */
+      </div>
+    </div>  
+  );
+}
