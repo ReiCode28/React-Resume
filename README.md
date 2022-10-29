@@ -11,4 +11,4 @@ Tech that will be used:
 - Express
 - Bootstrap
 
-App is work in progress and will later be deployed on Heroku.
+App is work in progress and will later be deployed on Netlify.
