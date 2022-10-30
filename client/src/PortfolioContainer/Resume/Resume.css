@@ -232,3 +232,22 @@
       width: 100%;
     }
   }
+
+  @media only screen and (max-width: 910px){
+    .resume-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .resume-card {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        align-items: center;
+        width: 95%;
+      }
+      .resume-main-heading span{
+        font-size: 14px;
+      }
+  }
