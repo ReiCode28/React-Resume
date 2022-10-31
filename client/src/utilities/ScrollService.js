@@ -65,7 +65,7 @@ export default class ScrollService {
                 ScrollService.currentScreenBroadCaster.next({
                     screenInView: screen.screen_name
                 });
-                break;
+                break
             }
         }
     }

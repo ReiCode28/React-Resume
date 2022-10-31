@@ -5,12 +5,12 @@ import Animations from '../../utilities/Animations'
 import "./AboutMe.css";
 
 export default function AboutMe(props) {
-  let fadeInScreenHandler = (screen)=>{
-    if(screen.fadeScreen !== props.id)
-    return
-    Animations.animations.fadeInScreen(props.id)
-  }
-  const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+  let fadeInScreenHandler = (screen) => {
+    if (screen.fadeInScreen !== props.id) return;
+    Animations.animations.fadeInScreen(props.id);
+  };
+  const fadeInSubscription =
+    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const SCREEN_CONSTANTS = {
     description: "Software Engineer with experience in building full stack web applications in a collaborative environment; utilizing Agile methodologies and proper version control to complete projects in a timely manner. Background knowledge of backend - Java, Spring Boot and front end - Javascript, React, Express and NodeJS. Coachable and willing to be a valuable asset to an organization.",
@@ -35,6 +35,13 @@ export default function AboutMe(props) {
     )
   }
 
+  useEffect(() => {
+    return () => {
+        /* UNSUBSCRIBE THE SUBSCRIPTIONS */
+        fadeInSubscription.unsubscribe();
+    }
+}, [fadeInSubscription]);
+
   return (
     <div className='about-me-container screen-container' id={props.id || ""}>
       <div className='about-me-parent'>
@@ -50,7 +57,8 @@ export default function AboutMe(props) {
               {renderHighlight()}
             </div>
             <div className='about-me-options'>
-            <button className='btn primary-btn'>
+            <button className='btn primary-btn'
+            onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
                         {""}
                         Hire Me{" "}
                     </button>
