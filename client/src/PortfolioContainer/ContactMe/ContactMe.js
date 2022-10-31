@@ -63,7 +63,7 @@ export default function ContactMe(props) {
 
 
   return (
-    <div className='main-container' id={props.id || ''}>
+    <div className='main-container fade-in' id={props.id || ''}>
         <ScreenHeading
         subHeading={"Let's keep in touch"}
         title={'Contact Me'}

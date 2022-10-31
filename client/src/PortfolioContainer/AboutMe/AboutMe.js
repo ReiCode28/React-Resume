@@ -43,7 +43,7 @@ export default function AboutMe(props) {
 }, [fadeInSubscription]);
 
   return (
-    <div className='about-me-container screen-container' id={props.id || ""}>
+    <div className='about-me-container screen-container fade-in' id={props.id || ""}>
       <div className='about-me-parent'>
         <ScreenHeading title={'About Me'} subHeading={'Why Choose Me?'}/>
         <div className='about-me-card'>

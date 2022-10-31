@@ -10,7 +10,7 @@ export default function Resume(props) {
     const [carouselOffsetStyle, setCarouselOffsetStyle] = useState({});
 
     let fadeInScreenHandler = (screen)=>{
-        if(screen.fadeScreen !== props.id)
+        if(screen.fadeInScreen !== props.id)
         return;
         Animations.animations.fadeInScreen(props.id)
       };
@@ -240,7 +240,7 @@ export default function Resume(props) {
     
   return (
     <div 
-    className='resume-container screen-container' 
+    className='resume-container screen-container fade-in' 
     id ={props.id || ""}
     >
         <div className='resume-content'>
