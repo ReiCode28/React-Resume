@@ -5,6 +5,7 @@ import load1 from '../../../src/images/load2.gif'
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
 import ScrollService from '../../utilities/ScrollService'
 import Animations from '../../utilities/Animations'
+import './ContactMe.css';
 
 
 
@@ -82,18 +83,16 @@ export default function ContactMe(props) {
                     />
 
                     <label htmlFor='message'>Message</label>
-                    <textarea type='submit'
+                    <textarea type='text'
                     onChange={handleMessage}
                     value={message}
                     />
 
                     <div className='send-btn'>
-                        <button>
                             <button type='submit'>
                                 send
                                 <i className='fa fa-paper-plane'/>
                             </button>
-                        </button>
                     </div>
                 </form>
             </div>
