@@ -15,5 +15,5 @@ App is work in progress and will later be deployed on Netlify.
 
 Check out my progress here:
 
-<a href="https://bit.ly/3Ft2cLG">My React Resume</a>
+<a href="https://bit.ly/randy-react-resume">My React Resume</a>
 
