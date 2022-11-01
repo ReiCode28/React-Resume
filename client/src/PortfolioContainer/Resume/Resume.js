@@ -59,6 +59,8 @@ export default function Resume(props) {
         {skill: "ExpressJS", ratingPercentage: 85},
         {skill: "HTML", ratingPercentage: 85},
         {skill: "CSS", ratingPercentage: 85},
+        {skill: "Version Control", ratingPercentage: 85},
+        {skill: "SQL", ratingPercentage: 85},
 
     ];
     const projectsDetails = [
@@ -66,15 +68,15 @@ export default function Resume(props) {
             title: "Personal Portfolio Website",
             duration: {fromDate: "2022", toDate: "2022"},
             description: 
-            "A Personal Portfolio website to showcase all my details and projects in one place",
+            "A full stack Personal Portfolio website to showcase my resume details, skills and projects in one place. The app is mobile responsive with email functionality. ",
             subHeading: 
-            "Technologies Used: React JS, Bootstrap",
+            "Technologies Used: React JS, NodeJS, Express, CSS, HTML, Bootstrap",
         },
         {
             title: "Blog Application",
             duration: {fromDate: "2022", toDate: "2022"},
             description: 
-            "A web application that allows users to create and share blog posts within its community.",
+            "Collaborated with 4 software engineers to create a full stack web application that allows users to create, read, update and delete blog posts within a community.  The app conforms to the REST architectural style and leverages the MVC design pattern.",
             subHeading: 
             "Technologies Used: MongoDB, ExpressJS, ReactJS, NodeJS",
         },
@@ -82,7 +84,7 @@ export default function Resume(props) {
             title: "Covid Tracker",
             duration: {fromDate: "2022", toDate: "2022"},
             description: 
-            "A web app that tracks reported data of confirmed covid cases globally",
+            "A web app that tracks public reported data of confirmed covid cases globally; raw data is puled from a repo that is updated and maintained on a daily bases by John Hopkins University; parsed, formatted and rendered in a user interface.",
             subHeading: 
             "Technologies Used: Spring Boot, Java, Thymeleaf, Commons CSV, Bootstrap",
         },

@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Software Engineer with experience in building full stack web applications in a collaborative environment; utilizing Agile methodologies and proper version control to complete projects in a timely manner. Background knowledge of backend - Java, Spring Boot and front end - Javascript, React, Express and NodeJS. Coachable and willing to be a valuable asset to an organization.",
+      "Software Engineer with experience in building full stack web applications in a collaborative environment; utilizing Agile methodologies and proper version control to complete projects in a timely manner. Background knowledge of backend - Java, Spring Boot and front end - Javascript, React, Express and NodeJS. Coachable with a strong desire to learn and willing to be a valuable asset to an organization.",
     highlights: {
       bullets: [
         "Constantly striving for improvement and learning",
