@@ -6,6 +6,10 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
+import defaultAvatar from '../../../src/img/Testimonial/256-512.webp'
+import shape from '../../../src/img/Testimonial/shape-bg.png'
+
+
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -89,7 +93,7 @@ export default function Testimonial(props) {
                 </div>
                 <div className="client-info">
                     <img 
-                    src="img/256-512.webp"
+                    src={defaultAvatar}
                     alt="No internet connection."
                     ></img>
                     <h5>Name</h5>
@@ -128,7 +132,7 @@ export default function Testimonial(props) {
                 </div>
                 <div className="client-info">
                     <img 
-                    src="img/256-512.webp"
+                    src={defaultAvatar}
                     alt="No internet connection."
                     ></img>
                     <h5>Name</h5>
@@ -206,7 +210,7 @@ export default function Testimonial(props) {
                 </div>
                 <div className="client-info">
                     <img 
-                    src="img/256-512.webp"
+                    src={defaultAvatar}
                     alt="No internet connection."
                     ></img>
                     <h5>Name</h5>
@@ -223,7 +227,7 @@ export default function Testimonial(props) {
       </section>
       <div className="footer-image">
       <img 
-                    src="img/shape-bg.png"
+                    src={shape}
                     alt="No internet connection."
                     ></img>
       </div>
