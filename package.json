@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "In an effort to continue to practice and improve my skills, I will build a full stack + responsive resume application with email functionality.",
   "main": "index.js",
+  "engines": {
+    "node": "18.11.0",
+    "npm": "8.19.2"
+},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
