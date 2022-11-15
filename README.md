@@ -9,9 +9,18 @@ Tech used:
 - CSS + HTML
 - NodeJS
 - Express
-- Bootstrap
+- Basic Bootstrap
 
-App is work in progress and will later be deployed on Netlify.
+Features:
+
+- Smooth scrolling + Fade in Animation
+- Utilized react type effect to change text based on timing
+- Downloadable PDF File of my Resume
+- Implemented call to action button using Rxjs
+- Implemented email functionality using NodeMailer
+- Learned how to use react Owl Carousel to make the testimonial scroll from the right edge of the screen to the left edge of the screen.
+
+App is live and deployed on Heroku.
 
 Check out my progress here:
 
